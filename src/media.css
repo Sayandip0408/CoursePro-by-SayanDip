@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&display=swap');
+
+
+@media (max-width: 1170px) {
+    .header_sec_img_cls {
+        margin: 20px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .card {
+        width: 350px;
+        height: 250px;
+    }
+
+    .courses .course {
+        margin: 10px 1vw;
+        width: 28vw;
+    }
+
+    .courses .course img {
+        width: 26vw;
+    }
+
+    #contact h1 {
+        width: 70vw;
+    }
+
+    #contact p {
+        width: 70vw;
+    }
+
+    #form_div {
+        width: 70vw;
+    }
+
+    #form_div .text_div {
+        width: 60vw;
+    }
+
+    #send_msg {
+        width: 15vw;
+
+    }
+}
+
+@media (max-width: 1090px) {
+    #nav_menu {
+        display: block;
+        width: 50px;
+        font-size: 25px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: #0266ff;
+    }
+
+    .nav_ul_sec {
+        display: none;
+    }
+
+    .logo_sec {
+        width: 40vw;
+    }
+
+    .logo_text {
+        width: 35vw;
+        text-align: left;
+    }
+
+    .sign {
+        width: 60vw;
+        justify-content: end;
+        padding-right: 20px;
+    }
+
+    .sign button {
+        margin-left: 50px;
+    }
+
+    #nav_mob {
+        display: none;
+        padding: 10px;
+        animation-name: showNav;
+        animation-duration: 0.5s;
+        height: 270px;
+    }
+
+    #nav_mob ul li{
+        list-style: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: 'Arima', cursive;
+        animation-name: showlink;
+        animation-duration: 1s;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    #nav_mob ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+    @keyframes showNav {
+        from {
+            height: 1px;
+        }
+
+        to {
+            height: 270px;
+        }
+    }
+
+    @keyframes showlink {
+        from {
+            font-size: 1px;
+            height: 10px;
+        }
+
+        to {
+            font-size: 18px;
+            height: 50px;
+        }
+    }
+
+    #nav_mob ul li:hover {
+        background-color: #0266ff;
+        color: white;
+    }
+
+    .header_sec button {
+        font-size: 15px;
+    }
+
+    #text_area_div textarea {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 975px) {
+    .sign button {
+        margin-left: 10px;
+    }
+
+    .header {
+        display: block;
+    }
+
+    .header_sec {
+        width: 99.7vw;
+        text-align: center;
+    }
+
+    .header_sec_h1 {
+        font-size: 6vw;
+    }
+
+    .header_sec button {
+        padding: 10px 20px 10px 20px;
+        box-shadow: 0px 5px 0px 0px #0040a0,
+            0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+    }
+
+    .header_sec button:hover {
+        box-shadow: 0px 5px 0px 0px #0040a0;
+        top: 0px;
+    }
+
+    .header_sec button:active {
+        box-shadow: 0px 2px 0px 0px #0040a0;
+        top: 5px;
+    }
+
+    .header_sec .join_btn {
+        background: gold;
+        color: black;
+        box-shadow: 0px 5px 0px 0px rgb(196, 166, 0),
+            0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+        ;
+    }
+
+    .header_sec .join_btn:hover {
+        box-shadow: 0px 5px 0px 0px rgb(196, 166, 0);
+        top: 0px;
+    }
+
+    .header_sec .join_btn:active {
+        box-shadow: 0px 2px 0px 0px rgb(196, 166, 0);
+        top: 5px;
+    }
+
+    .header_sec_img_cls {
+        height: 30vw;
+        width: 30vw;
+    }
+
+    #record {
+        padding: 5px 0;
+    }
+
+    .record_div {
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+
+    .record_numbers {
+        font-size: 25px;
+    }
+
+    .service_texts {
+        width: 70vw;
+        font-size: 5vw;
+    }
+
+    .service_texts h3 {
+        text-transform: uppercase;
+        color: #ef9600;
+        font-size: 20px;
+    }
+
+    .courses .course {
+        width: 42vw;
+        margin: 10px 3vw;
+        padding: 1vw;
+    }
+
+    .courses .course img {
+        width: 40vw;
+    }
+
+    .buy_btn {
+        width: 10vw;
+        height: 30px;
+    }
+
+    .faq_list {
+        width: 90vw;
+    }
+
+}
+
+@media (max-width: 815px) {
+    .card {
+        width: 250px;
+        height: 200px;
+    }
+
+    #send_msg {
+        width: 20vw;
+    }
+
+    #text_area_div textarea {
+        width: 45vw;
+    }
+
+    #contact_links {
+        display: block;
+    }
+
+    #contact_links a {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 610px) {
+    .card {
+        width: 80vw;
+        height: 200px;
+    }
+
+    .headline {
+        font-size: 7vw;
+    }
+
+    .courses .course {
+        width: 45vw;
+        margin: 10px 1vw;
+        padding: 1vw;
+    }
+
+    .courses .course img {
+        width: 43vw;
+    }
+
+    .buy_btn {
+        width: 15vw;
+        height: 30px;
+    }
+
+    #text_area_div textarea {
+        width: 60vw;
+    }
+
+    #send_msg {
+        width: 25vw;
+    }
+}
+
+
+
+@media (max-width: 490px) {
+    .logo_text {
+        font-size: 25px;
+    }
+
+    .signin {
+        display: none;
+    }
+
+    .header {
+        box-sizing: border-box;
+    }
+
+    #header_sec_text {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 30px 5px;
+    }
+
+    .header_sec_h1 {
+        font-size: 10vw;
+    }
+
+    .header_sec_p {
+        font-size: 17px;
+    }
+
+    .header_sec h3 {
+        font-size: 17px;
+    }
+
+    .sign .signup {
+        padding: 0px;
+        width: 80px;
+        font-size: 15px;
+        height: 30px;
+    }
+
+    .sign {
+        width: 30vw;
+    }
+
+    .logo_sec {
+        width: 80vw;
+    }
+
+    .logo_text {
+        width: 60vw;
+        font-size: 25px;
+    }
+
+    .header_sec_img_cls {
+        height: 30vw;
+        width: 30vw;
+    }
+
+    .service_texts {
+        width: 90vw;
+        font-size: 7vw;
+    }
+
+    .service_texts h3 {
+        font-size: 15px;
+    }
+
+    .courses .course {
+        width: 90vw;
+    }
+
+    .courses .course h3 {
+        font-size: 18px;
+    }
+
+    .courses .course img {
+        /* height: 150px; */
+        width: 88vw;
+    }
+
+    .courses .course p {
+        font-size: 15px;
+    }
+
+    .buy_btn {
+        width: 20vw;
+        height: 30px;
+        bottom: 5px;
+    }
+
+    .faq_sec h1 {
+        font-size: 7vw;
+    }
+
+    .faq_a {
+        font-size: 15px;
+    }
+
+    .faq_q {
+        font-size: 15px;
+    }
+
+    #contact_div {
+        width: 96vw;
+    }
+
+    #form_div {
+        width: 86vw;
+    }
+
+    #contact h1 {
+        width: 86vw;
+    }
+
+    #contact p {
+        width: 86vw;
+    }
+
+    #form_div .text_div {
+        width: 76vw;
+    }
+
+    #text_area_div textarea {
+        width: 76vw;
+    }
+
+    #send_msg {
+        width: 35vw;
+    }
+
+    .contact_info button {
+        height: 40px;
+        width: 40px;
+        font-size: 25px;
+    }
+
+}

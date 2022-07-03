@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82767a09.css",
+    "main.js": "/static/js/main.76addb35.js",
+    "static/media/student_img_4.jpeg": "/static/media/student_img_4.e0237382d9b8920cb83b.jpeg",
+    "static/media/student_img_2.jpeg": "/static/media/student_img_2.5d98aeb2e23dcbf8022b.jpeg",
+    "static/media/student_img.jpeg": "/static/media/student_img.bbe537b4083a4f0b691a.jpeg",
+    "static/media/student_img_3.jpeg": "/static/media/student_img_3.baa02ba642b9e6439999.jpeg",
+    "static/media/java.jpeg": "/static/media/java.874cfb72341fc8a24385.jpeg",
+    "static/media/react_js.png": "/static/media/react_js.e172d83ee962e4c827c6.png",
+    "static/media/python.jpeg": "/static/media/python.fea8ba8e2c82f5518406.jpeg",
+    "static/media/angular.jpeg": "/static/media/angular.47285298470aef072a99.jpeg",
+    "static/media/ds.jpeg": "/static/media/ds.8f6020512f27a14f6300.jpeg",
+    "static/media/cpp.jpeg": "/static/media/cpp.9e4d5a19b210d41e34a0.jpeg",
+    "index.html": "/index.html",
+    "main.82767a09.css.map": "/static/css/main.82767a09.css.map",
+    "main.76addb35.js.map": "/static/js/main.76addb35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82767a09.css",
+    "static/js/main.76addb35.js"
+  ]
+}
